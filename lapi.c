@@ -4,10 +4,10 @@
 ** See Copyright Notice in lua.h
 */
 
-#define lapi_c
+#define lapi_c  //对于.c文件也跟.h文件类似,都需要用define,防止重复import
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "lprefix.h"   //定义一些常数
 
 
 #include <limits.h>
@@ -29,6 +29,22 @@
 #include "ltm.h"
 #include "lundump.h"
 #include "lvm.h"
+
+
+
+
+#include<stdlib.h>
+#include <stdio.h>
+
+
+//int main()
+//{
+//printf("sdfdsf");
+//  return 0;
+//}
+
+
+
 
 
 

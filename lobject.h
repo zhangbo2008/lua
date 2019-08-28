@@ -3,12 +3,23 @@
 ** Type definitions for Lua objects
 ** See Copyright Notice in lua.h
 */
-
+/*先看这个2019-08-28,19点54
+ *
+ *
+ *
+ *
+ * */
 
 #ifndef lobject_h
 #define lobject_h
 
-
+/* #include_next仅用于特殊的场合. 它被用于头文件中(#include既可用于头文件中,
+ * 又可用于.c文件中)来包含其他的头文件. 而且包含头文件的路径比较特殊: 从当前头文
+ * 件所在目录之后的目录来搜索头文件.
+ *
+ *
+ *
+ * */
 #include <stdarg.h>
 
 
