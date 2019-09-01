@@ -109,6 +109,13 @@ static StkId index2stack (lua_State *L, int idx) {
     return L->top + idx;
   }
 }
+#include<stdio.h>
+int main(){
+printf("dsfadsf");
+
+} 
+
+
 
 
 LUA_API int lua_checkstack (lua_State *L, int n) {

@@ -1,0 +1,3 @@
+D:/zhangbo340/Desktop/lua/cmake-build-debug/CMakeFiles/lua.dir
+D:/zhangbo340/Desktop/lua/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/zhangbo340/Desktop/lua/cmake-build-debug/CMakeFiles/rebuild_cache.dir
